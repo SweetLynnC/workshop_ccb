@@ -52,7 +52,7 @@ occs <-
 
 occs_sf <- 
   occs |> 
-  filter(x < -110) |> 
+  filter(x < -110) |>   #all points west of 110
   st_as_sf(
     coords = c(
       x = 'x',

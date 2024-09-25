@@ -1,5 +1,7 @@
 
 # setup -------------------------------------------------------------------
+# 
+# #this only works when there are less than 10k records
 
 rm(list = ls())
 
